@@ -6,7 +6,7 @@ Login to the DMP Management backend (CPPLUS DMP).
 
 Click Product Development and select Create Product.
 
-> ![](E:\赵良胜\产品\dmp产品\dmp操作文档转在线\图片\图片1.png)
+> ![](img/图片1.png)
 
 Enter the information about the product, (Examples: Product Name: Testcamera, Product Model: C2-A-DP, Product Type:dome camera, Communication Protocols:WiFi), click Confirm to complete the creation, as shown in the figure.
 
