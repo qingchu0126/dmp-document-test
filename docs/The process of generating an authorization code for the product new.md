@@ -43,7 +43,9 @@ Select the firmware for association.
 >
 
 ```
-Note: If the configuration of grouping and standard functions has been added to the standard function grouping module (as shown in the figure below), when the product is added to the corresponding standard function, the grouping and standard function configuration will be automatically brought into the module of the product for easy configuration; Of course, the product can also customize the grouping and standard function configuration of the module.
+Note: If the configuration of grouping and standard functions has been added to the standard function grouping module (as shown in the figure below), 
+when the product is added to the corresponding standard function, the grouping and standard function configuration will be automatically brought into the module of the product for easy configuration; 
+Of course, the product can also customize the grouping and standard function configuration of the module.
 ```
 
 > ![](E:\赵良胜\产品\dmp产品\dmp操作文档转在线\图片\图片9.png)
