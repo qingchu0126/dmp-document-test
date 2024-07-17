@@ -4,4 +4,4 @@ nav:
 - Target: The process of generating an authorization code for the product new.md
 - Test: without image.md
 theme:
-    name: material
+    name: gitbook
