@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>标准功能清单 - juancloud</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="dmp-documents">
+<meta name="generator" content="mkdocs-1.6.0, mkdocs-gitbook-1.0.7">
+<meta name="author" content="zls">
+<link rel="shortcut icon" href="../../images/favicon.ico" type="image/x-icon">
+<meta name="HandheldFriendly" content="true"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta rel="next" href="" />
+<link href="../../css/style.min.css" rel="stylesheet">
+<link href="../../extra.css" rel="stylesheet"> 
+</head>
+
+<body>
+<div class="book">
+<div class="book-summary">
+<div id="book-search-input" role="search">
+<input type="text" placeholder="Type to search" />
+</div> <!-- end of book-search-input -->
+
+<nav role="navigation">
+<ul class="summary">
+<li>
+<a href="../.." target="_blank" class="custom-link">juancloud</a>
+</li>
+<li class="divider"></li>
+<li class="chapter" data-path="">
+<a href="../..">Home</a>
+<li class="chapter" data-path="The%20process%20of%20generating%20an%20authorization%20code%20for%20the%20product%20new/">
+<a href="../../The%20process%20of%20generating%20an%20authorization%20code%20for%20the%20product%20new/">Target</a>
+<li class="chapter" data-path="without%20image/">
+<a href="../../without%20image/">Test</a>
+<li class="chapter" data-path="产品\在线文档部署使用指南.md">
+<a href="../../产品/在线文档部署使用指南.md">部署说明</a>
+<li class="chapter" data-path="%E4%BA%A7%E5%93%81/%E4%BA%A7%E5%93%81%E5%BC%80%E5%8F%91/">
+<a href="../%E4%BA%A7%E5%93%81%E5%BC%80%E5%8F%91/">产品开发</a>
+<li class="chapter" data-path="%E4%BA%A7%E5%93%81/%E7%BC%96%E8%BE%91%E3%80%81%E5%88%A0%E9%99%A4%E3%80%81%E6%9F%A5%E8%AF%A2%E4%BA%A7%E5%93%81/">
+<a href="../%E7%BC%96%E8%BE%91%E3%80%81%E5%88%A0%E9%99%A4%E3%80%81%E6%9F%A5%E8%AF%A2%E4%BA%A7%E5%93%81/">编辑、删除、查询产品</a>
+<li class="chapter active" data-path="%E4%BA%A7%E5%93%81/%E6%A0%87%E5%87%86%E5%8A%9F%E8%83%BD%E6%B8%85%E5%8D%95/">
+<a href="./">标准功能清单</a>
+<li class="chapter" data-path="%E4%BA%A7%E5%93%81/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86/">
+<a href="../%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86/">设备管理</a>
+<li class="chapter" data-path="%E4%BA%A7%E5%93%81/%E5%9B%BA%E4%BB%B6%E7%AE%A1%E7%90%86/">
+<a href="../%E5%9B%BA%E4%BB%B6%E7%AE%A1%E7%90%86/">固件管理</a>
+<li class="divider"></li>
+
+
+
+<li><a href="http://www.mkdocs.org">
+Published with MkDocs
+</a></li>
+
+<li><a href="https://github.com/GitbookIO/theme-default">
+Theme by GitBook
+</a></li>
+</ul>
+
+</nav>
+
+</div> <!-- end of book-summary -->
+
+<div class="book-body">
+<div class="body-inner">
+<div class="book-header" role="navigation">
+
+<!-- Title -->
+<h1>
+<i class="fa fa-circle-o-notch fa-spin"></i>
+<a href="." ></a>
+</h1>
+
+</div> <!-- end of book-header -->
+
+<div class="page-wrapper" tabindex="-1" role="main">
+<div class="page-inner">
+<div id="book-search-results">
+<div class="search-noresults">
+
+<section class="normal markdown-section">
+
+
+
+<h1 id="_1">标准功能清单</h1>
+<p>标准功能是产品开发的前提。按类型分，标准功能可分为属性、事件和动作。本文将介绍如何新建、编辑、查询和导出标准功能。</p>
+<blockquote>
+<p>属性：描述产品设备运行时的某种状态。</p>
+<p>如：设备的在线状态。</p>
+<p>事件：由产品设备运行过程中产生的信息、警告、和故障等。</p>
+<p>事件是由设备上报的，一个事件包含多个输出参数。</p>
+<p>如：设备在运行过程中发生故障，那么联网的设备可以将这些信息发送出去，通知人员及时处理。</p>
+<p>动作：设备可以被调用的能力和方法。</p>
+<p>动作由应用下发设备，设备可以返回结果给应用。</p>
+<p>如：您希望灯能够烘托出浪漫的气氛，就要调节灯的颜色、亮度和色温。如果分别设置属性，将会非常繁琐，这时可以为灯增加一个场景模式的动作，一个命令就可以设置到浪漫模式。</p>
+</blockquote>
+<h2 id="_2">新建标准功能</h2>
+<ul>
+<li>选择左侧导航栏 <strong>产品</strong> &gt; <strong>标准功能清单</strong> ，单击 <strong>创建功能</strong> 按钮。</li>
+</ul>
+<p><img alt="" src="../../%E6%93%8D%E4%BD%9C%E6%96%87%E6%A1%A3%E5%9B%BE%E7%89%87/%E4%BA%A7%E5%93%81/%E6%A0%87%E5%87%86%E5%8A%9F%E8%83%BD%E6%B8%85%E5%8D%95/%E6%96%B0%E5%BB%BA%E6%A0%87%E5%87%86%E5%8A%9F%E8%83%BD%E6%8C%89%E9%92%AE.png" /></p>
+<ul>
+<li>在弹出的页面中填写标准功能信息。</li>
+</ul>
+<blockquote>
+<p>注意：功能类型选择不一样，填写的信息也不一样。</p>
+<p>DP ID需要唯一。</p>
+</blockquote>
+<p><img alt="" src="../../%E6%93%8D%E4%BD%9C%E6%96%87%E6%A1%A3%E5%9B%BE%E7%89%87/%E4%BA%A7%E5%93%81/%E6%A0%87%E5%87%86%E5%8A%9F%E8%83%BD%E6%B8%85%E5%8D%95/%E5%8A%9F%E8%83%BD%E7%B1%BB%E5%9E%8B%E9%80%89%E6%8B%A9.png" /></p>
+<ul>
+<li>填写完毕后单击 <strong>确认</strong> 按钮进行保存。</li>
+</ul>
+<blockquote>
+<p>这里以新建属性为例。</p>
+</blockquote>
+<p><img alt="" src="../../%E6%93%8D%E4%BD%9C%E6%96%87%E6%A1%A3%E5%9B%BE%E7%89%87/%E4%BA%A7%E5%93%81/%E6%A0%87%E5%87%86%E5%8A%9F%E8%83%BD%E6%B8%85%E5%8D%95/%E6%96%B0%E5%BB%BA%E5%B1%9E%E6%80%A7%E7%A1%AE%E8%AE%A4.png" /></p>
+<p>在新建功能完成后，功能列表中会显示您刚刚新建的功能。</p>
+<h2 id="_3">编辑标准功能</h2>
+<ul>
+<li>单击您想要编辑的功能右侧的 <strong>编辑</strong> 按钮，进入编辑功能页面。</li>
+</ul>
+<p><img alt="" src="../../%E6%93%8D%E4%BD%9C%E6%96%87%E6%A1%A3%E5%9B%BE%E7%89%87/%E4%BA%A7%E5%93%81/%E6%A0%87%E5%87%86%E5%8A%9F%E8%83%BD%E6%B8%85%E5%8D%95/%E7%BC%96%E8%BE%91%E6%A0%87%E5%87%86%E5%8A%9F%E8%83%BD%E6%8C%89%E9%92%AE.png" /></p>
+<ul>
+<li>在此处可以修改您想要修改的信息（DP ID无法修改），修改完成后单击 <strong>确认</strong> 按钮进行保存。</li>
+</ul>
+<p><img alt="" src="../../%E6%93%8D%E4%BD%9C%E6%96%87%E6%A1%A3%E5%9B%BE%E7%89%87/%E4%BA%A7%E5%93%81/%E6%A0%87%E5%87%86%E5%8A%9F%E8%83%BD%E6%B8%85%E5%8D%95/%E4%BF%AE%E6%94%B9%E5%B1%9E%E6%80%A7%E7%A1%AE%E8%AE%A4.png" /></p>
+<h2 id="_4">查询标准功能</h2>
+<p>查询功能支持多种查询方式：功能名称、DP ID、数据类型。</p>
+<blockquote>
+<p>功能名称支持模糊查询，DP ID和数据类型支持精准查询。</p>
+<p>此处以DP ID为查询条件。</p>
+</blockquote>
+<ul>
+<li>单击 <strong>功能名称</strong> 条件，在下拉框中选择 <strong>DP ID</strong> 条件。</li>
+<li>在输入框中输入您想要搜索的功能的DP ID。</li>
+<li>单击 <strong>搜索</strong> 按钮执行搜索。</li>
+</ul>
+<p><img alt="" src="../../%E6%93%8D%E4%BD%9C%E6%96%87%E6%A1%A3%E5%9B%BE%E7%89%87/%E4%BA%A7%E5%93%81/%E6%A0%87%E5%87%86%E5%8A%9F%E8%83%BD%E6%B8%85%E5%8D%95/%E4%BD%BF%E7%94%A8DPID%E6%90%9C%E7%B4%A2.png" /></p>
+<ul>
+<li>下方列表中会显示对应的功能。</li>
+<li>单击 <strong>重置</strong> 按钮会重置为未输入条件的状态。</li>
+</ul>
+<p>同时，搜索功能支持多条件搜索。</p>
+<blockquote>
+<p>此处以DP ID=10016， 数据类型=String为例。数据类型支持多选。</p>
+</blockquote>
+<ul>
+<li>单击 <strong>数据类型</strong> 选择框，在下拉框中选择想要的数据类型，选择完毕后单击 <strong>搜索</strong> 执行查询。</li>
+</ul>
+<p><img alt="" src="../../%E6%93%8D%E4%BD%9C%E6%96%87%E6%A1%A3%E5%9B%BE%E7%89%87/%E4%BA%A7%E5%93%81/%E6%A0%87%E5%87%86%E5%8A%9F%E8%83%BD%E6%B8%85%E5%8D%95/%E5%A4%9A%E7%A7%8D%E6%9D%A1%E4%BB%B6%E6%90%9C%E7%B4%A2.png" /></p>
+<ul>
+<li>下方列表中会显示对应的功能。</li>
+</ul>
+<h2 id="_5">导出标准功能</h2>
+<p>您可以使用此功能导出所有标准功能。</p>
+<ul>
+<li>单击 <strong>导出</strong> 按钮。</li>
+</ul>
+<p><img alt="" src="../../%E6%93%8D%E4%BD%9C%E6%96%87%E6%A1%A3%E5%9B%BE%E7%89%87/%E4%BA%A7%E5%93%81/%E6%A0%87%E5%87%86%E5%8A%9F%E8%83%BD%E6%B8%85%E5%8D%95/%E5%AF%BC%E5%87%BA%E6%8C%89%E9%92%AE.png" /></p>
+<ul>
+<li>在弹出的对话框中单击 <strong>确认</strong> 执行导出。</li>
+</ul>
+<p><img alt="" src="../../%E6%93%8D%E4%BD%9C%E6%96%87%E6%A1%A3%E5%9B%BE%E7%89%87/%E4%BA%A7%E5%93%81/%E6%A0%87%E5%87%86%E5%8A%9F%E8%83%BD%E6%B8%85%E5%8D%95/%E5%AF%BC%E5%87%BA%E5%8A%9F%E8%83%BD%E7%A1%AE%E8%AE%A4.png" /></p>
+<ul>
+<li>您可以在导出的Excel表里面查看标准功能详情。</li>
+</ul>
+
+
+</section>
+</div> <!-- end of search-noresults -->
+<div class="search-results">
+<div class="has-results">
+
+<h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+<ul class="search-results-list"></ul>
+
+</div> <!-- end of has-results -->
+<div class="no-results">
+
+<h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+
+</div> <!-- end of no-results -->
+</div> <!-- end of search-results -->
+</div> <!-- end of book-search-results -->
+
+</div> <!-- end of page-inner -->
+</div> <!-- end of page-wrapper -->
+
+</div> <!-- end of body-inner -->
+
+</div> <!-- end of book-body -->
+<script src="../../js/main.js"></script>
+<script src="../../search/main.js"></script>
+<script src="../../js/gitbook.min.js"></script>
+<script src="../../js/theme.min.js"></script>
+</body>
+</html>
